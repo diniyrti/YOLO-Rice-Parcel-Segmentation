@@ -14,9 +14,11 @@ https://docs.ultralytics.com/usage/cfg/#augmentation-settings
 
 • Implementation of the model on new data  
 
+📊 Results:
+Training showed consistent improvements in precision, recall, and mAP. The YOLO11 inference shows neat segmentation of rice fields, with red boundaries closely following the land contours. Most plots are clearly separated, though some borders remain slightly merged or less detailed. 
+
 ![image alt](https://github.com/diniyrti/YOLO11-Rice-Parcel-Instance-Segmentation/blob/main/images/matrix_results.png)
 
 ![image alt](https://github.com/diniyrti/YOLO11-Rice-Parcel-Instance-Segmentation/blob/main/images/infrence%20result.png)
 
-📊 Results:
-Training showed consistent improvements in precision, recall, and mAP. The YOLO11 inference shows neat segmentation of rice fields, with red boundaries closely following the land contours. Most plots are clearly separated, though some borders remain slightly merged or less detailed. 
+
